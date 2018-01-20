@@ -1,0 +1,31 @@
+{
+  "name": "recetas-api",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "include-all": "^1.0.0",
+    "rc": "1.0.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "sails": "~0.12.12",
+    "sails-disk": "~0.10.9"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maryamdot/recetas-api.git"
+  },
+  "author": "maryamdot",
+  "license": "",
+  "devDependencies": {
+    "sails-hook-autoreload": "^0.13.2"
+  }
+}
